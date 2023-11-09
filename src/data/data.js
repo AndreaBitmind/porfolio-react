@@ -55,8 +55,8 @@ export const educationDes = {
 
   master: `I successfully undertook an engineering project involving the design, production, and commercialization of an innovative product, as part of my academic journey focused on Food & Business Industry Research, Development, and Innovation.`,
 
-  bootcamp: `Development of web pages with React, using Redux to manage the state. On the Back End side, building a RESTful API connected to a MongoDB database. 
-Use of Typescript in both Front and Back End.
+  bootcamp: `Development of web pages with React, using Redux to manage the state on the Frontend. On the Backend side, building a RESTful API connected to a MongoDB database. 
+Use of Typescript in both Front and Backend.
 Development through React Framework with responsive design and 100% testing code coverage.
 Domain in JavaScript frameworks and web technologies such as React/Redux, CSS, SASS, HTML.
 Knowledge of database structures (Supabase), theories, principles and good practices (SOLID principles), unit tests of code and web components (Jest), E2E test (Cypress) and version control (Git).`,
