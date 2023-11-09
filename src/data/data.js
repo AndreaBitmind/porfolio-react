@@ -29,30 +29,35 @@ export const featuresData = [
 ];
 
 // Experience Data
+export const experienceData = {
+  softwareDeveloper: `Created web components and applications with React and TypeScript for Sónar Festival.
+      Designed components and pages using the Stitches CSS framework.
+      Performed unit testing with Jest and React Testing Library.
+      Managed CRM user accounts and addressing customer registration.
+      Collaborated within an Agile multidisciplinary team.`,
 
-export const experienceData = () => {
-  const softwareDeveloperDes = `Created web components and applications with React and TypeScript for Sónar Festival.
-Designed components and pages using the Stitches CSS framework.
-Performed unit testing with Jest and React Testing Library.
-Managed CRM user accounts and addressing customer registration.
-Collaborated within an Agile multidisciplinary team.`;
+  projectManager: `Collaborated with software developers, healthcare providers, and stakeholders to define project requirements and deliverables.
+      Coordinated project activities, including software development, testing, user training, and system integration.
+      Successfully launched healthcare technology solutions using Agile methodology, addressing technical challenges and improving patient care delivery.
+      Planning, organization and execution of the different calls for proposals.`,
 
-  const projectManagerDes = `Collaborated with software developers, healthcare providers, and stakeholders to define project requirements and deliverables.
-Coordinated project activities, including software development, testing, user training, and system integration.
-Successfully launched healthcare technology solutions using Agile methodology, addressing technical challenges and improving patient care delivery.
-Planning, organization and execution of the different calls for proposals`;
+  programManager: `Planned and coordinated multiple biotechnology projects, ensuring alignment with research objectives and regulatory requirements.
+      Led cross-functional teams of scientists, researchers, and stakeholders, promoting effective communication and collaboration.
+      Website and social media management.
+      Comercial database development.`,
 
-  const programManagerDes = `Planned and coordinated multiple biotechnology projects, ensuring alignment with research objectives and regulatory requirements.
-Led cross-functional teams of scientists, researchers, and stakeholders, promoting effective communication and collaboration.
-Website and social media management
-Comercial database development`;
+  researchProjectManager: `Identifying and evaluating R&D projects, collaborating with teams to define specs, timelines, and resources for development. Managing timelines, resources, and project progress with project management.`,
+};
 
-  const researchProjectManagerDes = `Identifying and evaluating R&D projects, collaborating with teams todefine specs, timelines, and resources for development. Managing timelines, resources, and project progress with project management.`;
+// Education Data
+export const educationDes = {
+  biotechnology: `I studied Biotechnology, blending biology and technology to apply scientific principles in creating innovative biological products and processes.`,
 
-  return {
-    softwareDeveloperDes,
-    projectManagerDes,
-    programManagerDes,
-    researchProjectManagerDes,
-  };
+  master: `I successfully undertook an engineering project involving the design, production, and commercialization of an innovative product, as part of my academic journey focused on Food & Business Industry Research, Development, and Innovation.`,
+
+  bootcamp: `Development of web pages with React, using Redux to manage the state. On the Back End side, building a RESTful API connected to a MongoDB database. 
+Use of Typescript in both Front and Back End.
+Development through React Framework with responsive design and 100% testing code coverage.
+Domain in JavaScript frameworks and web technologies such as React/Redux, CSS, SASS, HTML.
+Knowledge of database structures (Supabase), theories, principles and good practices (SOLID principles), unit tests of code and web components (Jest), E2E test (Cypress) and version control (Git).`,
 };
