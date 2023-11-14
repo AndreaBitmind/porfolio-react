@@ -61,3 +61,33 @@ Development through React Framework with responsive design and 100% testing code
 Domain in JavaScript frameworks and web technologies such as React/Redux, CSS, SASS, HTML.
 Knowledge of database structures (Supabase), theories, principles and good practices (SOLID principles), unit tests of code and web components (Jest), E2E test (Cypress) and version control (Git).`,
 };
+
+export const skills = {
+  markupAndLanguages: [
+    "html",
+    "css",
+    "javascript",
+    "typescript",
+    // "cpp",
+    // "java",
+    // "python",
+    //"firebase",
+    // "moralis",
+    // "stripe",
+    //"tanstack-query",
+  ],
+  frontendTechnologies: [
+    "react",
+    "redux",
+    "nextjs",
+    "tailwindcss",
+    "styledcomponents",
+    "sass",
+    "webpack",
+    "vite",
+    //"antdesign",
+    //"chakra-ui",
+  ],
+  backendAndDatabases: ["nodejs", "mysql", "mongodb"],
+  toolsAndOther: ["git", "figma", "trello"],
+};
