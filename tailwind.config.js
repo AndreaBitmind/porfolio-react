@@ -23,6 +23,8 @@ module.exports = {
         boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
         designColor: "#7E20D7",
         subtitleColor: "#D8BCF3",
+        mailColor: "#F14336",
+        linkedinColor: "#0270AD",
       },
       boxShadow: {
         shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
