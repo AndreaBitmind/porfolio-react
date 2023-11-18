@@ -9,7 +9,6 @@ import {
   projectSix,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
-import { SiReact, SiTypescript } from "react-icons/si";
 
 const Projects = () => {
   return (
