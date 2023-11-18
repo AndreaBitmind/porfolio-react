@@ -41,11 +41,10 @@ const Resume = () => {
           <a
             href="https://drive.google.com/uc?export=download&id=1JL8iph8wm18dzbDfDVd4D0jpOWmLV25k"
             download="CV_AndreaMartinez_Frontend"
-            target="_blank"
             rel="noopener noreferrer"
           >
             <span className="resumeIcon" dow>
-              Download resume 📃
+              Download CV ⏬
             </span>
           </a>
         </div>
