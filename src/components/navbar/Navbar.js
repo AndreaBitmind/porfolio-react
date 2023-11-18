@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaLinkedinIn } from "react-icons/fa";
-import { SiGithub, SiGmail } from "react-icons/si";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
