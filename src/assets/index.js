@@ -7,8 +7,6 @@ import projectFour from "./images/projects/projectFour.png";
 import projectFive from "./images/projects/projectFive.png";
 import projectSix from "./images/projects/projectSix.png";
 
-import contactImg from "./images/contact/contactImg.png";
-
 export {
   logo,
   bannerImg,
@@ -18,5 +16,4 @@ export {
   projectFour,
   projectFive,
   projectSix,
-  contactImg,
 };
