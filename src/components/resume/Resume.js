@@ -4,8 +4,8 @@ import Education from "./Education";
 import Experience from "./Experience";
 
 const Resume = () => {
-  const [educationData, setEducationData] = useState(true);
-  const [experienceData, setExperienceData] = useState(false);
+  const [educationData, setEducationData] = useState(false);
+  const [experienceData, setExperienceData] = useState(true);
 
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
@@ -43,9 +43,7 @@ const Resume = () => {
             download="CV_AndreaMartinez_Frontend"
             rel="noopener noreferrer"
           >
-            <span className="resumeIcon" dow>
-              Download CV ⏬
-            </span>
+            <span className="resumeIcon">Download CV ⏬</span>
           </a>
         </div>
       </div>
