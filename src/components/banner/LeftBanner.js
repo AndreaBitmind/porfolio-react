@@ -17,7 +17,7 @@ const LeftBanner = () => {
           Hi, I'm{" "}
           <span className="text-designColor capitalize">Andrea Martinez</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-4xl font-bold text-white h-20 xl:h-10">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
