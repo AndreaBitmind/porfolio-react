@@ -8,9 +8,12 @@ const Resume = () => {
   const [experienceData, setExperienceData] = useState(true);
 
   return (
-    <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
+    <section
+      id="experience"
+      className="w-full py-20 border-b-[1px] border-b-black"
+    >
       <div className="flex items-center text-center">
-        <Title des="My Resume" />
+        <Title des="My Experience" />
       </div>
       <div className="flex flex-col-reverse lg:place-content-between lg:flex-row">
         <div className="md:w-1/2">
