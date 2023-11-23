@@ -6,8 +6,8 @@ export const navLinksdata = [
   },
   {
     _id: 1002,
-    title: "Features",
-    link: "features",
+    title: "What I do",
+    link: "whatIdo",
   },
   {
     _id: 1003,
@@ -21,8 +21,8 @@ export const navLinksdata = [
   },
   {
     _id: 1005,
-    title: "Resume",
-    link: "resume",
+    title: "Experience",
+    link: "experience",
   },
   {
     _id: 1006,
