@@ -14,7 +14,7 @@ const Skills = () => {
         <SkillsCard
           title={"Markup and Languages"}
           des={
-            <div className="flex flex-wrap gap-6 transform-gpu seq">
+            <div className="gap-6 transform-gpu seq grid grid-cols-4 justify-items-center">
               {skills.markupAndLanguages.map((skill) => (
                 <img
                   key={skill}
@@ -31,7 +31,7 @@ const Skills = () => {
         <SkillsCard
           title={"Frontend Technologies"}
           des={
-            <div className="flex flex-wrap gap-6 transform-gpu seq">
+            <div className="gap-6 transform-gpu seq grid grid-cols-4 justify-items-center">
               {skills.frontendTechnologies.map((skill) => (
                 <img
                   key={skill}
@@ -48,7 +48,7 @@ const Skills = () => {
         <SkillsCard
           title={"Backend Technologies and Databases"}
           des={
-            <div className="flex flex-wrap gap-6 transform-gpu seq">
+            <div className="gap-6 transform-gpu seq grid grid-cols-4 justify-items-center">
               {skills.backendAndDatabases.map((skill) => (
                 <img
                   key={skill}
@@ -65,7 +65,7 @@ const Skills = () => {
         <SkillsCard
           title={"Tools and Others"}
           des={
-            <div className="flex flex-wrap gap-6 transform-gpu seq">
+            <div className="gap-6 transform-gpu seq grid grid-cols-4 justify-items-center">
               {skills.toolsAndOther.map((skill) => (
                 <img
                   key={skill}
