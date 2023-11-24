@@ -22,7 +22,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="RewindMusic APP Frontend"
-          des="This is a CRUD (Create, Read, Update, Delete) functionality for efficiently managing and organizing a diverse collection of songs. This application empowers registered users to interact with their music library, granting them the ability to explore, personalize, and maintain their songs effortlessly"
+          des="This is a CRUD (Create, Read, Update, Delete) functionality for efficiently managing and organizing a diverse collection of songs. This application empowers registered users to interact with their music library, granting them the ability to explore, personalize, and maintain their songs effortlessly."
           src={projectOne}
           githubLink="https://github.com/AndreaBitmind/andrea-martinez-rewindmusic-front"
           websiteLink="https://amrtinz-final-project-2022-bcn.netlify.app/"
