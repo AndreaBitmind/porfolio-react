@@ -6,16 +6,7 @@ const Card = ({ item: { title, des, icon } }) => {
       <div className="h-72 xl:h-96">
         <div className="flex h-full flex-col gap-10 lgl:translate-y-16 lgl:group-hover:translate-y-0 lgl:transition-transform lgl:duration-500">
           <div className="w-10 h-8 flex flex-col justify-between">
-            {icon ? (
-              <span className="text-5xl text-designColor">{icon}</span>
-            ) : (
-              <>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-              </>
-            )}
+            <span className="text-5xl text-designColor">{icon}</span>
           </div>
           <div className="flex flex-col gap-6">
             <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">
