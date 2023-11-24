@@ -22,6 +22,7 @@ module.exports = {
         lightText: "#c4cfde",
         boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
         designColor: "#7E20D7",
+        goTopButton: "#7E20D750",
         subtitleColor: "#D8BCF3",
         mailColor: "#F14336",
         linkedinColor: "#0270AD",
