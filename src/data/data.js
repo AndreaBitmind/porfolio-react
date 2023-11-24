@@ -1,5 +1,6 @@
 import { SiProgress } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
+import { TbSubtask } from "react-icons/tb";
 
 // Features Data
 export const featuresData = [
@@ -23,6 +24,7 @@ export const featuresData = [
   }, */
   {
     id: 4,
+    icon: <TbSubtask />,
     title: "Project Management",
     des: "As a project manager, I've directed a variety of digital health projects, employing Agile methodology to optimize planning and execution, resulting in improved software solutions.",
   },
