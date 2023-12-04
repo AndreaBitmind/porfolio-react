@@ -1,19 +1,44 @@
 # Andrea Martinez || Personal Portfolio
 
-A professionally designed portfolio website, utilizing the latest technologies such as ReactJS, Tailwind CSS, Framer-Motion, React-Slick, and React-Scroll to deliver an interactive and visually compelling user experience. The website showcases my skills and achievements through dynamic transitions, intuitive navigation, and engaging animations.
+A professionally designed portfolio website, using the latest technologies such as ReactJS, Tailwind CSS, Framer-Motion, React-Slick, and React-Scroll to deliver an interactive and visually compelling user experience. The website showcases my skills and achievements through dynamic transitions, intuitive navigation, and engaging animations.
+<br>
+<br>
+Visit https://andream-portfolio.netlify.app/ to run this project online.
+<br>
+<br>
 
-### Getting Started with Create React App
+## Table of contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Video Demo](#video-demo)
+- [Features](#features)
+- [Used packages](#used-packages)
+- [How can you run this project locally](#how-can-you-run-this-project-locally)
+  <br>
+  <br>
 
-### Available Scripts
+## Video Demo
 
-In the project directory, you can run:
+![Portfolio Demo](https://github.com/AndreaBitmind/portfolio-react/blob/main/public/porftolioGif.gif)
 
-#### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Interactive UI with smooth animations powered by Framer Motion.
+- Integration of popular React libraries such as React Icons, React Slick, and more.
+- Dynamic typing effect using React Simple Typewriter.
+- Responsive design with the help of Tailwind CSS.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Used Packages
+
+- **React**: Front-end library for building user interfaces.
+- **Framer Motion**: Animation library for React.
+- **React Icons**: Icon library for React projects.
+- **React Simple Typewriter**: React component for typing animations.
+- **Tailwind CSS**: Utility-first CSS framework.
+
+## How to Run This Project Locally
+
+1. Clone this repository: `git clone https://github.com/your-username/andreaportfolio.git`
+2. Navigate to the project directory: `cd andreaportfolio`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the portfolio.
